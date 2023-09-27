@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+form {
+    margin: 3rem auto;
+    padding: 1rem;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 30rem;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+
+}
+
+button {
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(85, 9, 85);
+    border-radius: 6px;
+    color: white;
+    border: 1px solid rgb(114, 8, 114)
+}
+
+button:hover,
+button:active{
+    background-color: rgb(69, 9, 69);
+    border-color: rgb(69, 9, 69);
+}
+
+.form-control{
+    margin-bottom: 1rem;
+}
+
+.form-control input{
+    font: inherit;
+    width: 10rem;
+    border-radius: 4px;
+    border: 1px solid rgb(85, 8, 85) ;
+    display: block;
+
+}
+.form-control label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.errorlist {
+    list-style: none;
+    margin: 0.5rem 0;
+    padding: 0;
+    color: rgb(58, 4, 4);
+}
+
+.errors input {
+    background-color: rgb(255, 143, 143);
+    border-color: rgb(248, 147, 147);
+}
+.errors label {
+    color: red;
+}
