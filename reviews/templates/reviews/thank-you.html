@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>thank you</title>
-</head>
-<body>
+{% extends "base.html" %}
+{% block title %} Thank you {% endblock %}
+{% block content %}
   <h1>Thank You!!!!</h1>
   <h2>Your entered review details are as follows</h2>
   <div>
@@ -13,5 +8,4 @@
     <h3>Your Review: <h2>{{form_db_data.review_text}}</h2></h3>
     <h3>Your rating: <h2>{{form_db_data.rating}}</h2></h3>
   </div>
-</body>
-</html>
+{% endblock %}
